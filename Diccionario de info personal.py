@@ -18,7 +18,7 @@ if "telefono" not in informacion_personal:
     informacion_personal["telefono"] = "0989724087"
 
 # Eliminar la clave "------"
-del informacion_personal["profesion"]
+del informacion_personal["edad"]
 
 # Imprimir el diccionario resultante
 print(informacion_personal)
